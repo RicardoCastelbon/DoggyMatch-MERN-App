@@ -67,15 +67,15 @@ npm start
 
 ## Features
 
-# Create doggy profile
+### Create doggy profile
 
 - You can create a doggy profile after you have an account. You can add all the details about your doggy.
 
-# Matches
+### Matches
 
 - According to your doggy profile we find perfect matches.
 
-# Chating
+### Chating
 
 - You can chat now with your doggy playmate.
 
