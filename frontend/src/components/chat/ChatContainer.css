@@ -1,0 +1,32 @@
+.chat-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 100px;
+}
+
+.chat {
+  min-height: 400px;
+}
+
+.chat-buttons {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.option {
+  border-bottom: solid 4px rgb(134, 65, 190);
+  font-size: 20px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.option:disabled {
+  border-bottom: solid 4px rgb(89, 88, 91);
+}
+
+@media only screen and (max-width: 960px) {
+  .chat {
+    width: 95%;
+  }
+}

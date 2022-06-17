@@ -1,0 +1,23 @@
+.img-container {
+    height: auto;
+    width: 100px;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 10px;
+    margin-left: 20px;
+    cursor:pointer;
+    overflow-y: auto
+}
+
+.img-container img{
+    width:100%;
+}
+
+.container{
+    margin-left: 20px;
+}
+
+.matches{
+    height:58vh;
+    overflow-y:auto;
+}

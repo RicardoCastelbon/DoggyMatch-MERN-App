@@ -1,0 +1,121 @@
+.onboarding {
+  margin: 50px auto;
+}
+
+.onboarding form {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.onboarding form section {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  width: 45%;
+  text-align: start;
+}
+
+.onboarding form input {
+  padding: 15px 30px;
+  margin: 10px 0;
+  font-size: 15px;
+  border: solid 2px rgb(219, 219, 219);
+  border-radius: 10px;
+}
+
+.textarea-border {
+  padding: 10px;
+  border: solid 2px rgb(144, 144, 144);
+  border-radius: 10px;
+}
+
+.onboarding form input::-webkit-outer-spin-button,
+.onboarding form input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.onboarding form label {
+  margin: 10px 0;
+}
+
+.onboarding form .multiple-input-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.onboarding form .multiple-input-container input {
+  margin-right: 10px;
+}
+
+.onboarding form .multiple-input-container label {
+  padding: 10px;
+  border: solid 2px rgb(144, 144, 144);
+  border-radius: 10px;
+  transition: all 0.3s;
+  margin-right: 10px;
+}
+
+.onboarding form input[type="radio"] {
+  display: none;
+}
+
+.onboarding form input[type="number"] {
+  width: 30%;
+}
+
+.onboarding form input[type="radio"]:checked + label {
+  border: solid 2px rgb(127, 103, 197);
+}
+
+.onboarding form input[type="submit"] {
+  background: #7f67c5;
+  box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.25);
+  border: 2px solid transparent;
+  border-radius: 30px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.onboarding form input[type="submit"]:hover {
+  border: 2px solid #000000;
+}
+
+.onboarding form input[type="submit"]:active {
+  border: 2px solid #000000;
+  box-shadow: inset 7px 10px 15px rgba(0, 0, 0, 0.5);
+}
+
+.onboarding form .photo-container img {
+  width: 100%;
+}
+
+@media only screen and (max-width: 750px) {
+  .onboarding {
+    width: 95%;
+  }
+
+  .onboarding form {
+    flex-direction: column;
+    align-content: center;
+  }
+
+  .onboarding form section {
+    width: 100%;
+    text-align: start;
+    align-content: center;
+  }
+
+  .onboarding form .multiple-input-container label {
+    margin-right: 3px;
+  }
+
+  #show-gender {
+    width: 100%;
+  }
+}
