@@ -82,8 +82,8 @@ npm start
 ## Documentation
 
 - [Prototyping in Figma](https://www.figma.com/file/hEO9VUjNsFZXQOl84DlZQk/DoggyMatch?node-id=0%3A1)
-- [Projects GitHub](https://github.com/cimp08/team-2-frontend/projects)
-- [Projects GitHub](https://github.com/cimp08/team-2-backend-final/projects)
+- [Frontend Sprints](https://github.com/cimp08/team-2-frontend/projects)
+- [Backend Sprints](https://github.com/cimp08/team-2-backend-final/projects)
 
 ## Test
 
